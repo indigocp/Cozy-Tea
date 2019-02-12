@@ -1,0 +1,2 @@
+# Cozy-Tea - Codecademy Project
+Yes, I realize this isn't looking how it should but I have been going in circles.  I actually at one point had it looking better than this but I can't get back there but I didn't do work in developer tools.  I have used the following FlexBox resources; games,reading material, tutorials and videos. (I even have looked at other folks code) I want to complete this project but I feel like now I am spending un-productive time trying to figure this out without real direction.  Hence, my posting it in this un-completed form.  
