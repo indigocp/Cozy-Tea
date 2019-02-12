@@ -6,20 +6,25 @@
   color:seashell;
   opacity:0.9;
   text-align: center;
+  margin:auto;
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 90px;
+  width: 1220px;
 }
 /*Header*/
-header{
+header {
   display:flex;
   align-items: center;
+  justify-content: start;
   position: fixed;
+  background-color: black;
   color: seashell;
   border-bottom: 1px solid seashell;
+  font-size: 22px;
   height: 69px;
   z-index: 1;
-  width: 100%;
+  width:1220px;
 }
 span a{
   color:seashell;
@@ -30,15 +35,16 @@ div{
 .logo {
   display: flex;
   align-items: center;
+  flex-grow: 1;
   height: 50px;
   padding-left:10px;
   color: seashell;
   margin-left: 10PX;
 }
- nav{
-  margin-left: 800px;
-  font-size: 22px;
+.nav {
+
 }
+
 /*Main Content*/
 .main-image-content{
   display:flex;
@@ -51,34 +57,46 @@ div{
 .mission {
   background-color: black;
   opacity: 1;
-  width:1200px;
+  width: 1200px;
   color: seashell;
 }
 .middle-images{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items:center;
+  align-items: center;
+
+
 }
 .tea-of-month{
+  display: flex;
+  flex-wrap: row wrap;
+  justify-content: center;
   height: 200px;
   width: 300px;
+  margin: 0 auto;
 }
 .bottom-images{
-  display: flex;
-  justify-content: space-between;
+  display: inline-flex;
+  justify-content: center;
+  flex-flow: wrap;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
-  height: 500px;
-  width:1220px;
+  margin: auto;
+  width:auto;
 }
 .title{
   display: block;
 }
+h2{
+
+  align-text: center;
+}
 .locations{
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
   margin-top: 15px;
-  margin-left:40px;
-  margin-right: 40px;
+  margin: auto;
   height:300px;
   width: 300px;
   opacity: 1;
@@ -92,8 +110,7 @@ footer{
   background-color: black;
   margin-top: 20px;
   margin-bottom: 20px;
-  height: 200px;
-  width: 1220px;
+  margin:auto;
   color: seashell;
   padding-top: 10px;
 }
