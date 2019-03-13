@@ -1,5 +1,5 @@
 /* universal css*/
-.universal{
+html {
   font-family: Helvetica;
   font-size:22px;
   background-color: black;
@@ -29,9 +29,7 @@ header {
 span a{
   color:seashell;
 }
-div{
-  border: 1px solid red;
-}
+
 .logo {
   display: flex;
   align-items: center;
@@ -41,12 +39,10 @@ div{
   color: seashell;
   margin-left: 10PX;
 }
-.nav {
-
-}
 
 /*Main Content*/
-.main-image-content{
+
+.mission{
   display:flex;
   flex-direction: column;
   justify-content: center;
@@ -54,44 +50,38 @@ div{
   height:700px;
   width: 1200px;
 }
-.mission {
+
+.description{
   background-color: black;
   opacity: 1;
+  margin: auto;
   width: 1200px;
   color: seashell;
 }
 
-.main-middle{
+.featured{
   display: flex;
-
-}
-.middle-images{
-  display: flex;
-  flex-direction: row;
   justify-content: space-between;
+  flex-wrap: wrap;
   align-items: center;
+}
+.featured img {
   height: 200px;
   width: 300px;
   margin: 0 auto;
 }
-.tea-of-month{
 
-}
-.bottom-images{
-  display: inline-flex;
+.locations{
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  flex-flow: wrap;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
   margin: auto;
-  width:auto;
+  width: auto;
+  height: 500px;
 }
-.title{
-  display: block;
-}
-h2{
-  align-text: center;
-}
-.locations{
+
+  .item {
   display: flex;
   flex-direction: column;
   justify-content:center;
@@ -102,6 +92,11 @@ h2{
   opacity: 1;
   background-color: black;
 }
+
+.title{
+  display: block;
+}
+
 /*Footer*/
 footer{
   display: flex;
