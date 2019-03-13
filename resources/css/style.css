@@ -60,21 +60,22 @@ div{
   width: 1200px;
   color: seashell;
 }
-.middle-images{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
 
+.main-middle{
+  display: flex;
 
 }
-.tea-of-month{
+.middle-images{
   display: flex;
-  flex-wrap: row wrap;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
   height: 200px;
   width: 300px;
   margin: 0 auto;
+}
+.tea-of-month{
+
 }
 .bottom-images{
   display: inline-flex;
@@ -88,7 +89,6 @@ div{
   display: block;
 }
 h2{
-
   align-text: center;
 }
 .locations{
