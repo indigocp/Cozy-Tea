@@ -61,11 +61,17 @@ span a{
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  align-items: center;
+  width: 1000px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+
 }
 .featured img {
+  justify-content: space-around;
+  align-items: center;
   height: 200px;
   width: 300px;
+  padding: 10px;
   margin: 0 auto;
 }
 
