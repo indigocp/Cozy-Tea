@@ -6,25 +6,21 @@ html {
   color:seashell;
   opacity:0.9;
   text-align: center;
-  margin:auto;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 90px;
-  width: 1220px;
+
 }
 /*Header*/
 header {
   display:flex;
   align-items: center;
-  justify-content: start;
+  justify-content: space-between;
   position: fixed;
   background-color: black;
   color: seashell;
   border-bottom: 1px solid seashell;
-  font-size: 22px;
+  top:0;
   height: 69px;
   z-index: 1;
-  width:1220px;
+  width:100%;
 }
 span a{
   color:seashell;
@@ -34,11 +30,12 @@ span a{
   display: flex;
   align-items: center;
   flex-grow: 1;
-  height: 50px;
   padding-left:10px;
   color: seashell;
-  margin-left: 10PX;
 }
+.logo img{height: 50px;}
+
+.nav a{padding: 0 20px;}
 
 /*Main Content*/
 
@@ -48,14 +45,15 @@ span a{
   justify-content: center;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
   height:700px;
-  width: 1200px;
+  width: 100%;
+  margin: auto;
 }
 
 .description{
   background-color: black;
   opacity: 1;
   margin: auto;
-  width: 1200px;
+  width: 100%;
   color: seashell;
 }
 
