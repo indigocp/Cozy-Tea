@@ -35,10 +35,15 @@ span a{
 }
 .logo img{height: 50px;}
 
-.nav a{padding: 0 20px;}
+nav a {
+  padding: 10px 10px 10px 10px;
+}
 
 /*Main Content*/
-
+main footer{
+  position: relative;
+  top: 70px;
+}
 .mission{
   display:flex;
   flex-direction: column;
@@ -55,25 +60,41 @@ span a{
   margin: auto;
   width: 1200px;
   color: seashell;
+  line-height: 2;
 }
 
-.featured{
+h2{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.featured-items{
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
+}
+
+.featured-item-card img {
+  align-content: center;
+  height: 200px;
+  width: 300px;
+  padding: 30px;
+  margin: 0 auto;
+}
+.featured {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
   width: 1000px;
   padding-top: 70px;
   padding-bottom: 70px;
-
 }
-.featured img {
-  justify-content: space-around;
-  align-items: center;
-  height: 200px;
-  width: 300px;
+.featured h2{
+  font-size: 1.5rem;
+  font-weight: bold;
   padding: 10px;
-  margin: 0 auto;
 }
+
 
 .locations{
   display: flex;
