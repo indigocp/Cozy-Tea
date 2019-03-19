@@ -70,15 +70,20 @@ h2{
 
 .featured-items{
   display: flex;
+  justify-content: center;
+  margin-top: 20px;
   flex-wrap: wrap;
 }
 
 .featured-item-card img {
-  align-content: center;
+  display: block;
   height: 200px;
   width: 300px;
-  padding: 30px;
   margin: 0 auto;
+  padding: 0px 10px;
+}
+.featured-item-card h3  {
+  margin: 10px auto 20px;
 }
 .featured {
   display: flex;
@@ -95,21 +100,18 @@ h2{
   padding: 10px;
 }
 
-
 .locations{
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
   margin: auto;
-  width: auto;
+  width:1200px;
   height: 500px;
 }
 
   .item {
   display: flex;
   flex-direction: column;
-  justify-content:center;
+  justify-content: center;
   margin-top: 15px;
   margin: auto;
   height:300px;
