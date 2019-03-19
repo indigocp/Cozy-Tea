@@ -102,23 +102,31 @@ h2{
 
 .locations{
   display: flex;
+  flex-direction: column;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
   margin: auto;
+  justify-content:center;
   width:1200px;
   height: 500px;
 }
 
+.locations-item{
+  display: flex;
+  flex-direction: row;
+  padding-top: 15px;
+}
   .item {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  margin-top: 15px;
   margin: auto;
+  padding: auto 40px auto 40px;
+  line-height: 75px;
   height:300px;
   width: 300px;
   opacity: 1;
   background-color: black;
 }
+
 
 .title{
   display: block;
@@ -130,6 +138,7 @@ footer{
   flex-direction: column;
   justify-content: center;
   background-color: black;
+  line-height: 60px;
   margin-top: 20px;
   margin-bottom: 20px;
   margin:auto;
